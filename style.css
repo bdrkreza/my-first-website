@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navber section  Style */
+.navbar{
+    width: 100%;
+    padding: 10px 0;
+}
+.max-width{
+    padding: 0 70px;
+    margin: auto;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color:black;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: orangered;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    display: block;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 25px;
+}
+
+/* Welcome section  Style */
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 15px;
+    padding-top: 15px;
+    color: dimgray;
+}
+.text-highlight{
+    color:#FF8367;
+    text-transform: uppercase;
+}
+.text-highlight2{
+    color: #363958;
+    text-transform: uppercase;
+}
+.h-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-top: 50px;
+    
+}
+.rk {
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-left: 0px;
+    padding-left: 10%;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.btn{
+    display: inline-block;
+    background: #F76961;
+    color: #fff;
+    padding: 14px 36px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+/* work section styling */
+
+.work{
+    background-color:#F8F9FC ;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 60px;
+}
+
+.section-header{
+    text-align: center;
+    margin-bottom: 70px;
+    padding-top: 50px;
+    color: #363958;
+    font-size: 25px;
+}
+
+.letter{
+    color:#F46060;
+}
+
+.teams-work{
+    width: 29%;
+    height: auto;
+    float: left;
+    box-shadow: 5px 5px 15px black;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    margin: 0 5px;
+    background: #FFFFFF;
+    border-radius: 10px;
+   
+}
+
+.teams-work img{
+    width: 100%;
+}
+.teams-work h3{
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    color: #363958;
+}
+ .teams-work p{
+     color: dimgray;
+ }
+
+ /* Work inquiry section styling */
+
+ .text{
+     
+     top: 5%;
+     left: 100%;
+     bottom: 55%;
+     color:wheat;
+     transform: translate(50%, 50%);
+     padding-left: 55px;
+     
+ }
+ .container {
+     padding-top: 100px;
+     margin-left: 55px;
+     position: relative;
+     width: 50%;
+  }
+  
+  .container img {
+    width: 600px;
+    height: 150px;
+  }
+  .container .btn2 {
+    position: absolute;
+    top: 75%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #F76961;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+
+
+
+
+
+
